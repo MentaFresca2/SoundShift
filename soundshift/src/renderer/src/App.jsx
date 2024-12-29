@@ -1,11 +1,15 @@
-
+import BotonUno from "./components/Button.jsx"
 
 function App() {
-  
+  const Click = () => 
+    {
+      console.log("Hola")
+    };
 
   return (
     <>
-      Holi
+       <BotonUno onClick={Click}>Presionar</BotonUno>
+     
     </>
   )
 }

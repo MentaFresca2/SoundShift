@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+#root {
+    height: 100%;
+    background: rgb(27, 27, 49);
+    color: rgb(159, 234, 249);
+    font-family: consolas, monospace;
+}
+@font-face {
+    font-family: 'Consolas';
+    src: url('./assets/Consolas.ttf') format('truetype');
+}
+.BotonUno {
+    border: 2px solid rgb(100, 149, 237);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    transition: 0.5s, transform 0.2s;
+}
+.BotonUno:hover {
+    background: rgb(65, 105, 225);
+    color: white;
+}
+.BotonUno:active {
+    transform: scale(0.90);
+}
+
